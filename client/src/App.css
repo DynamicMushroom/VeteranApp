@@ -1,0 +1,158 @@
+body {
+  background-color: #323232; /* Dark grey background */
+  color: #f3ebeb; /* Light grey text */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Adding a subtle pattern for a bit of texture */
+body:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: 
+      linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+      linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+      linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+      linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+      linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+      linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  background-color: #131313;
+  background-size: 20px 20px;
+  z-index: -1;
+}
+
+/* Military green for headers */
+h1, h2 {
+  color: #4CAF50; 
+}
+
+/* Military green for buttons */
+button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: rgb(33, 3, 3);
+  color: rgb(238, 231, 231);
+  border: 1px solid #4CAF50;
+}
+
+
+/* Error message styles */
+.error-message {
+  background-color: #f44336; 
+  color: white;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+
+/* Style adjustments for input elements on Register and Login pages */
+input, textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style adjustments for labels on Register and Login pages */
+label {
+  font-weight: bold;
+  color: #ddd;
+}
+
+/* Style adjustments for link elements on Register and Login pages */
+a {
+  color: #4CAF50;
+}
+
+a:hover {
+  color: #ddd;
+}
+
+
+.button-group {
+  margin-top: 20px;
+}
+
+.button-group button {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Styles for containers */
+.profile-icon-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.dashboard-container {
+  padding: 20px;
+  text-align: left;
+  max-width: 600px;
+  margin: auto;
+}
+
+.form-container {
+  background-color: #3a3a3a;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  margin: auto;
+}
+
+.educationalResourcesContainer {
+  padding: 20px;
+}
+
+/* Styles for resource cards */
+.resourceCard {
+  background-color: #070101;
+  border: 1px solid #d30f0f;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.resourceCard h2 {
+  margin-top: 0;
+}
+
+.resourceCard a {
+  color: #1a0dab;
+}
+
+
+
+.returnLink {
+  display: block;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+
+
