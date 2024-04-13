@@ -31,9 +31,6 @@ function Dashboard() {
 
   return (
     <div className="dashboard-container">
-      {/* Welcome Message */}
-      {/*{user && <h2>Welcome, {user.email}!</h2>}*/}
-      {/* Profile Icon */}
       <div className="profile-icon-container">
         <Link to="/profile">
           <button className="btn btn-success w-100 rounded-0">Profile</button>

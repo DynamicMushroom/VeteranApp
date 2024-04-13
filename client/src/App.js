@@ -16,7 +16,7 @@ import MentalHealthResources from './components/MentalHealth';
 import EmploymentResources from './components/EmploymentResources';
 import './App.css';
 import VeteransClaimsResources from './components/VeteransClaimsResources';
-import Recover from './components/Recover';  // Import the RecoverPassword component
+import Recover from './components/Recover';  
 
 function App() {
   return (
@@ -102,8 +102,8 @@ function App() {
         <PrivateRoute>
             <MentalHealthResources />
         </PrivateRoute>
-    } 
-/>
+      } 
+    />
           </Routes>
         </Router>
       </div>

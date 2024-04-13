@@ -43,8 +43,6 @@ const store = new KnexSessionStore({
 
 
 
-
-
 // Function to test database connection
 async function testDatabaseConnection() {
     const connection = await mysql.createConnection({
